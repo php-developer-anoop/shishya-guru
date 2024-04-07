@@ -1,0 +1,14 @@
+CRITICAL - 2024-03-23 19:53:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 23.
+ 1 APPPATH/Controllers/Ajax.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-23 19:53:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 23.
+ 1 APPPATH/Controllers/Ajax.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1298 @@
+CRITICAL - 2024-03-14 11:16:27 --> TypeError: strlen(): Argument #1 ($str) must be of type string, array given
+in APPPATH/Views/frontend/tutor-listing.php on line 196.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 4 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 5 APPPATH/Controllers/Common.php(176): frontView('tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 11:18:47 --> ErrorException: Undefined variable $totalBoards
+in APPPATH/Views/frontend/tutor-listing.php on line 191.
+ 1 APPPATH/Views/frontend/tutor-listing.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalBoards', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 191)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(176): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 11:18:55 --> ErrorException: Undefined variable $totalBoards
+in APPPATH/Views/frontend/tutor-listing.php on line 191.
+ 1 APPPATH/Views/frontend/tutor-listing.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalBoards', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 191)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(176): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:24:03 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Common.php on line 157.
+ 1 APPPATH/Controllers/Common.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 157)
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-14 13:24:18 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Common.php on line 157.
+ 1 APPPATH/Controllers/Common.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 157)
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 13:30:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 13:30:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 13:30:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 13:30:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`2,5` = ''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject IN` `2,5` = \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject IN` `2,5` = :subject IN 2,5:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(176): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 13:30:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(177): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 13:30:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject` IN (2,5) :subject:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(177): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject` IN (2,5) \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject` IN (2,5) \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject` IN (2,5) :subject:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(177): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 13:30:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject` IN (2,5) \'\'
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject` IN (2,5) \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `subject` IN (2,5) \'\'
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `subject` IN (2,5) :subject:
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(177): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-14 13:31:52 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Common.php on line 171.
+ 1 APPPATH/Controllers/Common.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 171)
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 13:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-14 15:44:37 --> ErrorException: gd-webp encoding failed
+in APPPATH/Helpers/My_helper.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-14 16:19:37 --> ErrorException: Cannot redeclare App\Controllers\Ajax::getLocation()
+in APPPATH/Controllers/Ajax.php on line 369.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-03-14 16:24:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:24:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:24:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:24:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:24:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:24:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 3 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:24:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 4 APPPATH/Controllers/Ajax.php(373): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:34 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:25:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:25:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:25:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 16:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 16:26:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:26:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:02 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 16:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 16:26:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:26:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%l%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 16:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 16:26:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:26:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%lu%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 16:26:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_nam...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_nam...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_nam...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_nam...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 16:26:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 3 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 16:26:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%")' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 4 APPPATH/Controllers/Ajax.php(372): CodeIgniter\Database\BaseConnection->query('SELECT city_name, FROM dt_city_list WHERE status = "Active" AND (city_name LIKE "%luc%") ')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getCity()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 16:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 18:29:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 18:29:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:29:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:29:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 18:33:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 18:33:03 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:03 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 18:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 18:33:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 18:33:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:17 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 18:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 18:33:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `t...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,t...', Array, 10, NULL, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage(Array, 'tutor-list')
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Common->index()
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 18:33:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 4 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 6 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:50 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = \'Active\'
+AND `kyc_status` = \'Approved\'
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `tutor_slug`, `tutor_name`, `address`, `profile_image`, `city`, `experience_years`, `gender`, `board`, `monthly_fees`, `subject`, `class`, `avg_rating`, `total_reviews`
+FROM `dt_tutor_list`
+WHERE `status` = :status:
+AND `kyc_status` = :kyc_status:
+AND `class` IN ()
+ORDER BY `id` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Common.php(184): App\Models\Common_model->getAllData('tutor_list', 'id,tutor_slug,tutor_name,address,profile_image,city,experience_years,gender,board,monthly_fees,subject,class,avg_rating,total_reviews', [...], 10, null, 'DESC', 'id')
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 18:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 18:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

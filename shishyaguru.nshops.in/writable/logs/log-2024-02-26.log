@@ -1,0 +1,20 @@
+CRITICAL - 2024-02-26 10:09:33 --> ErrorException: Undefined array key "HTTP_USER_AGENT"
+in APPPATH/Helpers/My_helper.php on line 121.
+ 1 APPPATH/Helpers/My_helper.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_USER_AGENT"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php', 121)
+ 2 APPPATH/Helpers/My_helper.php(139): FetchExactBrowserName()
+ 3 APPPATH/Helpers/My_helper.php(29): imgExtension('1708323545_459ad811e1e2bea725a8.png', '1708323545_459ad811e1e2bea725a8.webp')
+ 4 APPPATH/Controllers/Home.php(23): frontView('index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 15:53:37 --> ErrorException: Undefined array key "HTTP_USER_AGENT"
+in APPPATH/Helpers/My_helper.php on line 121.
+ 1 APPPATH/Helpers/My_helper.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_USER_AGENT"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php', 121)
+ 2 APPPATH/Helpers/My_helper.php(139): FetchExactBrowserName()
+ 3 APPPATH/Helpers/My_helper.php(29): imgExtension('1708323545_459ad811e1e2bea725a8.png', '1708323545_459ad811e1e2bea725a8.webp')
+ 4 APPPATH/Controllers/Home.php(23): frontView('index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

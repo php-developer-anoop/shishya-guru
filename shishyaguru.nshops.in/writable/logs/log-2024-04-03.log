@@ -1,0 +1,231 @@
+CRITICAL - 2024-04-03 10:43:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 22.
+ 1 APPPATH/Controllers/Ajax.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 10:44:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 22.
+ 1 APPPATH/Controllers/Ajax.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 10:50:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 22.
+ 1 APPPATH/Controllers/Ajax.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 11:33:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 22.
+ 1 APPPATH/Controllers/Ajax.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 11:33:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Ajax.php on line 22.
+ 1 APPPATH/Controllers/Ajax.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-03 15:21:04 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_reques...', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 15:21:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:21:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:21:04 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-03 15:22:14 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_reques...', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 15:22:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:22:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:22:14 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-03 15:22:36 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_reques...', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 15:22:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:22:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 15:22:36 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = \'16\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_recharge_request`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Tutor/Recharge_request_list.php(36): App\Models\Common_model->countRecords('recharge_request', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Recharge_request_list->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Recharge_request_list))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 16:23:30 --> ErrorException: Undefined array key "image_jpg"
+in APPPATH/Views/frontend/blog-listing.php on line 120.
+ 1 APPPATH/Views/frontend/blog-listing.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_jpg"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/blog-listing.php', 120)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/blog-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/blog-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/blog-listing', [...])
+ 6 APPPATH/Controllers/Common.php(121): frontView('blog-listing', [...])
+ 7 APPPATH/Controllers/Common.php(24): App\Controllers\Common->LoadCmsPage([...], 'blogs')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

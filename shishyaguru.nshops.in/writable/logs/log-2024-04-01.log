@@ -1,0 +1,193 @@
+ERROR - 2024-04-01 10:17:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-01 10:17:51 --> 
+hello: 
+The following SMTP error was encountered: 
+CRITICAL - 2024-04-01 11:26:24 --> ErrorException: Undefined array key "activity_id"
+in APPPATH/Controllers/Tutor/Authentication.php on line 158.
+ 1 APPPATH/Controllers/Tutor/Authentication.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "activity_id"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Authentication.php', 158)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Authentication->logout()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Authentication))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 11:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 11:26:45 --> ErrorException: Undefined array key "activity_id"
+in APPPATH/Controllers/Tutor/Authentication.php on line 158.
+ 1 APPPATH/Controllers/Tutor/Authentication.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "activity_id"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Authentication.php', 158)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Authentication->logout()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Authentication))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 11:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 12:16:16 --> mysqli_sql_exception: Unknown column 'dt_city_list.city_id' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT dt_city_...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php(185): getCityStateName('1')
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/View/View.php(228): include('/home/nshops1/p...')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', Array, true)
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(70): view('tutor/profile', Array)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Profile.php(25): tutorView('profile', Array)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+#11 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+#12 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-01 12:16:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 2 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 3 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 6 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+ 7 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 12:16:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 3 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 4 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 5 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 6 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 8 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+ 9 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 12:16:16 --> [Caused by] mysqli_sql_exception: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 4 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 5 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 9 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+10 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 12:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 12:16:22 --> mysqli_sql_exception: Unknown column 'dt_city_list.city_id' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT dt_city_...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_...')
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php(185): getCityStateName('1')
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/system/View/View.php(228): include('/home/nshops1/p...')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', Array, true)
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(70): view('tutor/profile', Array)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Tutor/Profile.php(25): tutorView('profile', Array)
+#10 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+#11 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+#12 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-04-01 12:16:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 2 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 3 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 6 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+ 7 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 12:16:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 3 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 4 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 5 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 6 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 8 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+ 9 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 12:16:22 --> [Caused by] mysqli_sql_exception: Unknown column 'dt_city_list.city_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 4 APPPATH/Helpers/My_helper.php(539): CodeIgniter\Database\BaseConnection->query('SELECT dt_city_list.city_name, dt_state_list.state_name FROM dt_city_list INNER JOIN dt_state_list ON dt_state_list.id = dt_city_list.state_id WHERE dt_city_list.city_id = 1')
+ 5 APPPATH/Views/tutor/profile.php(185): getCityStateName('1')
+ 6 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/tutor/profile.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/profile', [], true)
+ 9 APPPATH/Helpers/My_helper.php(70): view('tutor/profile', [...])
+10 APPPATH/Controllers/Tutor/Profile.php(25): tutorView('profile', [...])
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Profile->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Profile))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 12:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 12:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:22:51 --> ParseError: Unclosed '{' on line 70
+in APPPATH/Views/tutor/wallet.php on line 156.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/wallet', [], true)
+ 3 APPPATH/Helpers/My_helper.php(70): view('tutor/wallet', [...])
+ 4 APPPATH/Controllers/Tutor/Wallet.php(17): tutorView('wallet', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Wallet->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Wallet))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 18:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 18:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,25 @@
+ERROR - 2024-03-26 11:31:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-26 11:31:14 --> 
+hello: 
+The following SMTP error was encountered: 
+CRITICAL - 2024-03-26 12:09:31 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Ajax.php on line 94.
+ 1 APPPATH/Controllers/Ajax.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 94)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getFees()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 12:11:56 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Ajax.php on line 95.
+ 1 APPPATH/Controllers/Ajax.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getFees()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 12:12:51 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Ajax.php on line 95.
+ 1 APPPATH/Controllers/Ajax.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getFees()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

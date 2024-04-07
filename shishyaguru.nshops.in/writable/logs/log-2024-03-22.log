@@ -1,0 +1,139 @@
+INFO - 2024-03-22 11:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 11:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-22 13:36:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-22 13:36:29 --> 
+hello: 220 cloud.md4.in ESMTP MigoMTA/E13BOB
+
+The following SMTP error was encountered: 220 cloud.md4.in ESMTP MigoMTA/E13BOB
+
+INFO - 2024-03-22 15:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:38:47 --> ErrorException: Undefined variable $field_value
+in APPPATH/Views/frontend/includes/header.php on line 16.
+ 1 APPPATH/Views/frontend/includes/header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $field_value', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php', 16)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/includes/header', [], true)
+ 5 APPPATH/Helpers/My_helper.php(33): view('frontend/includes/header', [...])
+ 6 APPPATH/Controllers/Common.php(276): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:39:15 --> ErrorException: Undefined variable $field_value
+in APPPATH/Views/frontend/includes/header.php on line 16.
+ 1 APPPATH/Views/frontend/includes/header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $field_value', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php', 16)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/includes/header', [], true)
+ 5 APPPATH/Helpers/My_helper.php(33): view('frontend/includes/header', [...])
+ 6 APPPATH/Controllers/Common.php(276): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:40:02 --> ErrorException: Undefined variable $field_value
+in APPPATH/Views/frontend/includes/header.php on line 16.
+ 1 APPPATH/Views/frontend/includes/header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $field_value', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php', 16)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/header.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/includes/header', [], true)
+ 5 APPPATH/Helpers/My_helper.php(33): view('frontend/includes/header', [...])
+ 6 APPPATH/Controllers/Home.php(39): frontView('index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:44:23 --> ErrorException: Undefined variable $meta_title
+in APPPATH/Views/frontend/includes/meta_file.php on line 6.
+ 1 APPPATH/Views/frontend/includes/meta_file.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $meta_title', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/meta_file.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/meta_file.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/includes/meta_file', [], true)
+ 5 APPPATH/Helpers/My_helper.php(31): view('frontend/includes/meta_file', [...])
+ 6 APPPATH/Controllers/Common.php(289): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:44:33 --> ErrorException: Undefined variable $meta_title
+in APPPATH/Views/frontend/includes/meta_file.php on line 6.
+ 1 APPPATH/Views/frontend/includes/meta_file.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $meta_title', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/meta_file.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/includes/meta_file.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/includes/meta_file', [], true)
+ 5 APPPATH/Helpers/My_helper.php(31): view('frontend/includes/meta_file', [...])
+ 6 APPPATH/Controllers/Common.php(289): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 16:45:08 --> ErrorException: Undefined variable $get_class_name
+in APPPATH/Views/frontend/tutor-listing.php on line 83.
+ 1 APPPATH/Views/frontend/tutor-listing.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_class_name', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 83)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(286): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 16:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 16:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 18:12:09 --> TypeError: array_slice(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Common.php on line 327.
+ 1 APPPATH/Controllers/Common.php(327): array_slice('Physics,Computer Applications', 0, 2)
+ 2 APPPATH/Controllers/Common.php(27): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 18:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-22 18:12:16 --> TypeError: array_slice(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Common.php on line 327.
+ 1 APPPATH/Controllers/Common.php(327): array_slice('Physics,Computer Applications', 0, 2)
+ 2 APPPATH/Controllers/Common.php(27): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-22 18:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 18:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-22 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

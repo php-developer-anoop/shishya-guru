@@ -1,0 +1,87 @@
+ERROR - 2024-03-21 11:45:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-21 11:45:52 --> 
+hello: 
+The following SMTP error was encountered: 
+CRITICAL - 2024-03-21 13:07:06 --> ErrorException: Undefined variable $get_class_name
+in APPPATH/Views/frontend/tutor-listing.php on line 82.
+ 1 APPPATH/Views/frontend/tutor-listing.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_class_name', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 82)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(211): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 13:07:26 --> ErrorException: Undefined variable $get_class_name
+in APPPATH/Views/frontend/tutor-listing.php on line 82.
+ 1 APPPATH/Views/frontend/tutor-listing.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_class_name', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 82)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(211): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 13:08:00 --> ErrorException: Undefined variable $get_class_name
+in APPPATH/Views/frontend/tutor-listing.php on line 83.
+ 1 APPPATH/Views/frontend/tutor-listing.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_class_name', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php', 83)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/tutor-listing.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/tutor-listing', [], true)
+ 5 APPPATH/Helpers/My_helper.php(34): view('frontend/tutor-listing', [...])
+ 6 APPPATH/Controllers/Common.php(211): frontView('tutor-listing', [...])
+ 7 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 13:10:47 --> Error: Using $this when not in object context
+in APPPATH/Helpers/My_helper.php on line 28.
+ 1 APPPATH/Controllers/Common.php(212): frontView('tutor-listing', [...])
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 13:10:53 --> Error: Using $this when not in object context
+in APPPATH/Helpers/My_helper.php on line 28.
+ 1 APPPATH/Controllers/Common.php(212): frontView('tutor-listing', [...])
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 13:11:31 --> Error: Call to undefined function get_instance()
+in APPPATH/Helpers/My_helper.php on line 25.
+ 1 APPPATH/Controllers/Common.php(212): frontView('tutor-listing', [...])
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'tutor-list')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-21 13:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-21 13:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-21 17:37:24 --> ErrorException: Undefined variable $company
+in APPPATH/Controllers/Common.php on line 35.
+ 1 APPPATH/Controllers/Common.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 35)
+ 2 APPPATH/Controllers/Common.php(23): App\Controllers\Common->LoadCmsPage([...], 'about-us')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

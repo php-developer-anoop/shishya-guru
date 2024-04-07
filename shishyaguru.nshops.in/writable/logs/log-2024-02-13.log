@@ -1,0 +1,344 @@
+CRITICAL - 2024-02-13 11:07:30 --> Error: Class "Config\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 11:07:56 --> Error: Class "Config\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 11:08:22 --> Error: Class "App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 11:09:41 --> mysqli_sql_exception: Table 'shishya_guru_db.dt_setting' doesn't exist in C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\shishya_guru\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\shishya_guru\app\Helpers\My_helper.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\shishya_guru\app\Helpers\My_helper.php(10): webSetting('*')
+#6 C:\xampp\htdocs\shishya_guru\app\Controllers\Admin\Dashboard.php(10): adminView('dashboard', Array)
+#7 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+#8 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\shishya_guru\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-13 11:09:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'shishya_guru_db.dt_setting' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_setting`', [], false)
+ 2 APPPATH\Helpers\My_helper.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Helpers\My_helper.php(10): webSetting('*')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 11:09:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'shishya_guru_db.dt_setting' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_setting`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_setting`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_setting`', [], false)
+ 4 APPPATH\Helpers\My_helper.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Helpers\My_helper.php(10): webSetting('*')
+ 6 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 11:09:41 --> [Caused by] mysqli_sql_exception: Table 'shishya_guru_db.dt_setting' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `dt_setting`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_setting`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_setting`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_setting`', [], false)
+ 5 APPPATH\Helpers\My_helper.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\My_helper.php(10): webSetting('*')
+ 7 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 11:18:11 --> ErrorException: Undefined variable $title
+in APPPATH\Views\admin\includes\meta_file.php on line 7.
+ 1 APPPATH\Views\admin\includes\meta_file.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\shishya_guru\\app\\Views\\admin\\includes\\meta_file.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\shishya_guru\\app\\Views\\admin\\includes\\meta_file.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/includes/meta_file', [], true)
+ 5 APPPATH\Helpers\My_helper.php(14): view('admin/includes/meta_file', [...])
+ 6 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 11:18:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Helpers\My_helper.php(18): view('admin/dashboard', [...])
+ 4 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 11:18:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Helpers\My_helper.php(18): view('admin/dashboard', [...])
+ 4 APPPATH\Controllers\Admin\Dashboard.php(10): adminView('dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 11:56:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/web-setting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/web-setting.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/web-setting', [], true)
+ 3 APPPATH\Helpers\My_helper.php(18): view('admin/web-setting', [...])
+ 4 APPPATH\Controllers\Admin\Websetting.php(10): adminView('web-setting', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 11:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 12:26:30 --> ErrorException: Undefined array key "linkedin_link"
+in APPPATH\Controllers\Admin\Websetting.php on line 60.
+ 1 APPPATH\Controllers\Admin\Websetting.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "linkedin_link"', 'C:\\xampp\\htdocs\\shishya_guru\\app\\Controllers\\Admin\\Websetting.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 12:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 12:27:13 --> ErrorException: Undefined array key "copyright"
+in APPPATH\Controllers\Admin\Websetting.php on line 64.
+ 1 APPPATH\Controllers\Admin\Websetting.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "copyright"', 'C:\\xampp\\htdocs\\shishya_guru\\app\\Controllers\\Admin\\Websetting.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 12:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 12:27:23 --> mysqli_sql_exception: Unknown column 'care_email_id' in 'field list' in C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `dt...', 0)
+#1 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt...')
+#2 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt...')
+#3 C:\xampp\htdocs\shishya_guru\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt...', Array, false)
+#4 C:\xampp\htdocs\shishya_guru\app\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\shishya_guru\app\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', Array)
+#6 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+#7 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+#8 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\shishya_guru\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-13 12:27:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'care_email_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email_id:, :care_mobile_no:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 2 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 12:27:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'care_email_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827243_2ce0f96a1cb6e02142a6.jpg\', \'1707827243_2ce0f96a1cb6e02142a6.webp\', \'1707827243_09506c60d668bd8976c9.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827243_2ce0f96a1cb6e02142a6.jpg\', \'1707827243_2ce0f96a1cb6e02142a6.webp\', \'1707827243_09506c60d668bd8976c9.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email_id:, :care_mobile_no:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 4 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 12:27:23 --> [Caused by] mysqli_sql_exception: Unknown column 'care_email_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827243_2ce0f96a1cb6e02142a6.jpg\', \'1707827243_2ce0f96a1cb6e02142a6.webp\', \'1707827243_09506c60d668bd8976c9.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827243_2ce0f96a1cb6e02142a6.jpg\', \'1707827243_2ce0f96a1cb6e02142a6.webp\', \'1707827243_09506c60d668bd8976c9.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827243_2ce0f96a1cb6e02142a6.jpg\', \'1707827243_2ce0f96a1cb6e02142a6.webp\', \'1707827243_09506c60d668bd8976c9.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email_id`, `care_mobile_no`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email_id:, :care_mobile_no:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 5 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 12:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 12:27:40 --> mysqli_sql_exception: Unknown column 'twitter_link' in 'field list' in C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\shishya_guru\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `dt...', 0)
+#1 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt...')
+#2 C:\xampp\htdocs\shishya_guru\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt...')
+#3 C:\xampp\htdocs\shishya_guru\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt...', Array, false)
+#4 C:\xampp\htdocs\shishya_guru\app\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\shishya_guru\app\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', Array)
+#6 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+#7 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+#8 C:\xampp\htdocs\shishya_guru\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\shishya_guru\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-13 12:27:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'twitter_link' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email:, :care_mobile:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 2 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 12:27:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'twitter_link' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827260_cf2ffa35df82790df4f9.jpg\', \'1707827260_cf2ffa35df82790df4f9.webp\', \'1707827260_94908f0130d11b3c7c49.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827260_cf2ffa35df82790df4f9.jpg\', \'1707827260_cf2ffa35df82790df4f9.webp\', \'1707827260_94908f0130d11b3c7c49.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email:, :care_mobile:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 4 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 12:27:40 --> [Caused by] mysqli_sql_exception: Unknown column 'twitter_link' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827260_cf2ffa35df82790df4f9.jpg\', \'1707827260_cf2ffa35df82790df4f9.webp\', \'1707827260_94908f0130d11b3c7c49.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827260_cf2ffa35df82790df4f9.jpg\', \'1707827260_cf2ffa35df82790df4f9.webp\', \'1707827260_94908f0130d11b3c7c49.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (\'1707827260_cf2ffa35df82790df4f9.jpg\', \'1707827260_cf2ffa35df82790df4f9.webp\', \'1707827260_94908f0130d11b3c7c49.jpg\', \'Logo\', \'Company Name\', \'9876543210\', \'care@gmail.com\', \'9876543210\', \'Facebook Link\', \'Twitter Link\', \'Instagram Link\', \'YouTube Link\', \'Map Iframe\', \'Full Address\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dt_setting` (`logo_jpg`, `logo_webp`, `favicon`, `logo_alt`, `company_name`, `care_whatsapp_no`, `care_email`, `care_mobile`, `facebook_link`, `twitter_link`, `instagram_link`, `youtube_link`, `map_script`, `office_address`) VALUES (:logo_jpg:, :logo_webp:, :favicon:, :logo_alt:, :company_name:, :care_whatsapp_no:, :care_email:, :care_mobile:, :facebook_link:, :twitter_link:, :instagram_link:, :youtube_link:, :map_script:, :office_address:)', [...], false)
+ 5 APPPATH\Models\Common_model.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin\Websetting.php(69): App\Models\Common_model->insertRecords('dt_setting', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin\Websetting->save_setting()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Websetting))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 12:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

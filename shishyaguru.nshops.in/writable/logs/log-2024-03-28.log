@@ -1,0 +1,958 @@
+ERROR - 2024-03-28 09:46:06 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:46:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:46:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:46:06 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 09:47:38 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:47:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:47:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:47:38 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 09:47:54 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:47:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:47:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:47:54 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 09:48:27 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:48:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:27 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 09:48:46 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:48:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:46 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 09:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 09:48:59 --> mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:48:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:48:59 --> [Caused by] mysqli_sql_exception: Table 'nshops1_shishyaguru_db.dt_citys_list' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_citys_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('citys_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 09:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 09:49:13 --> mysqli_sql_exception: Unknown column 'board_name' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `b...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `b...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `b...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `b...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('city_list', 'id,board_name', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 09:49:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'board_name' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('city_list', 'id,board_name', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:49:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'board_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('city_list', 'id,board_name', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 09:49:13 --> [Caused by] mysqli_sql_exception: Unknown column 'board_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `board_name`
+FROM `dt_city_list`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(25): App\Models\Common_model->getAllData('city_list', 'id,board_name', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 09:49:29 --> ErrorException: Undefined variable $banner_image_alt
+in APPPATH/Views/admin/edit-tutor.php on line 142.
+ 1 APPPATH/Views/admin/edit-tutor.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner_image_alt', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/edit-tutor.php', 142)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/edit-tutor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('admin/edit-tutor', [], true)
+ 5 APPPATH/Helpers/My_helper.php(24): view('admin/edit-tutor', [...])
+ 6 APPPATH/Controllers/Admin/Tutor.php(60): adminView('edit-tutor', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 11:12:15 --> TypeError: trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH/Controllers/Admin/Tutor.php on line 74.
+ 1 APPPATH/Controllers/Admin/Tutor.php(74): trim([...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 11:12:24 --> TypeError: trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH/Controllers/Admin/Tutor.php on line 74.
+ 1 APPPATH/Controllers/Admin/Tutor.php(74): trim([...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 11:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 11:18:04 --> mysqli_sql_exception: Unknown column 'tuition_fee' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `dt_tuto...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tuto...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tuto...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tuto...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', Array, Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 11:18:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 11:18:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 11:18:04 --> [Caused by] mysqli_sql_exception: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 11:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-28 11:18:10 --> mysqli_sql_exception: Unknown column 'tuition_fee' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `dt_tuto...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tuto...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tuto...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tuto...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', Array, Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 11:18:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 11:18:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 11:18:10 --> [Caused by] mysqli_sql_exception: Unknown column 'tuition_fee' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `dt_tutor_list` SET `tutor_name` = \'Satyatutor\', `dob` = \'2010-02-04\', `mobile_no` = \'9956245333\', `gender` = \'Male\', `email` = \'duplextechnologies@gmail.com\', `is_experienced` = \'Yes\', `experience_years` = \'4\', `tuition_mode` = \'At Home\', `board` = \'1,2,3\', `class` = \'2,4,5,8,9\', `subject` = \'4,5,6\', `skill` = \'2,4,8\', `days` = \'Mon,Tue,Wed,Thur,Fri,Sat\', `city` = \'5\', `qualification` = \'4\', `address` = \'sf 2 adharshila complex Aliganj\', `pincode` = \'226020\', `meta_title` = \'Satyatutor Home Tutor in Lucknow, English,Maths, Communication Skills,Adaptability\', `meta_description` = \'Satyatutor Best Home Tutor in sf 2 adharshila complex Aliganj for English,Maths, Communication Skills,Adaptability Hire Now!\', `meta_keyword` = \'Communication Skills,Adaptability,Feedback And Assessment Home Tutor in Lucknow, English,Maths,Physics Home Tutor in Lucknow\', `about_heading` = \'Hi i am software developer\', `about_description` = \'<p>Hi i am software developer</p>\', `tuition_fee` = \'600.00\', `status` = \'Inactive\', `kyc_status` = \'Approved\'
+WHERE `id` = \'22\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `dt_tutor_list` SET `tutor_name` = :tutor_name:, `dob` = :dob:, `mobile_no` = :mobile_no:, `gender` = :gender:, `email` = :email:, `is_experienced` = :is_experienced:, `experience_years` = :experience_years:, `tuition_mode` = :tuition_mode:, `board` = :board:, `class` = :class:, `subject` = :subject:, `skill` = :skill:, `days` = :days:, `city` = :city:, `qualification` = :qualification:, `address` = :address:, `pincode` = :pincode:, `meta_title` = :meta_title:, `meta_description` = :meta_description:, `meta_keyword` = :meta_keyword:, `about_heading` = :about_heading:, `about_description` = :about_description:, `tuition_fee` = :tuition_fee:, `status` = :status:, `kyc_status` = :kyc_status:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Models/Common_model.php(100): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/Admin/Tutor.php(126): App\Models\Common_model->updateRecords('dt_tutor_list', [...], [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->save_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 11:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 12:54:13 --> ErrorException: Undefined array key "image_jpg"
+in APPPATH/Views/frontend/index.php on line 345.
+ 1 APPPATH/Views/frontend/index.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_jpg"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/index.php', 345)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/index', [...])
+ 6 APPPATH/Controllers/Home.php(44): frontView('index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 12:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 12:54:22 --> ErrorException: Undefined array key "image_jpg"
+in APPPATH/Views/frontend/index.php on line 345.
+ 1 APPPATH/Views/frontend/index.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_jpg"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/index.php', 345)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/index', [...])
+ 6 APPPATH/Controllers/Home.php(44): frontView('index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 12:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:02:36 --> ErrorException: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH/Views/frontend/detail-page.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-28 13:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:02:43 --> ErrorException: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH/Views/frontend/detail-page.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-28 13:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:11:11 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Common.php on line 340.
+ 1 APPPATH/Controllers/Common.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 340)
+ 2 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 13:11:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Common.php on line 340.
+ 1 APPPATH/Controllers/Common.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 340)
+ 2 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 13:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:11:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Common.php on line 340.
+ 1 APPPATH/Controllers/Common.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 340)
+ 2 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 13:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:12:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Common.php on line 340.
+ 1 APPPATH/Controllers/Common.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Common.php', 340)
+ 2 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:14:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/frontend/detail-page.php on line 17.
+ 1 APPPATH/Views/frontend/detail-page.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/detail-page', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/detail-page', [...])
+ 6 APPPATH/Controllers/Common.php(355): frontView('detail-page', [...])
+ 7 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 13:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:15:45 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/frontend/detail-page.php on line 17.
+ 1 APPPATH/Views/frontend/detail-page.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/detail-page', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/detail-page', [...])
+ 6 APPPATH/Controllers/Common.php(355): frontView('detail-page', [...])
+ 7 APPPATH/Controllers/Common.php(29): App\Controllers\Common->LoadTutorDetails([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-28 13:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-28 13:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-28 13:52:06 --> ArgumentCountError: Too few arguments to function App\Models\Common_model::updateRecords(), 2 passed in /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/User.php on line 103 and exactly 3 expected
+in APPPATH/Models/Common_model.php on line 98.
+ 1 APPPATH/Controllers/User.php(103): App\Models\Common_model->updateRecords('tutor_list', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->validateReview()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 16:08:37 --> mysqli_sql_exception: Unknown column 'dt_a.id' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `dt_a`.`...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', Array, 'a.id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 16:08:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 16:08:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 16:08:37 --> [Caused by] mysqli_sql_exception: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 16:08:42 --> mysqli_sql_exception: Unknown column 'dt_a.id' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `dt_a`.`...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', Array, 'a.id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-28 16:08:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 16:08:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-28 16:08:42 --> [Caused by] mysqli_sql_exception: Unknown column 'dt_a.id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dt_a`.`id`
+FROM `dt_wallet`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dt_a`.`id`
+FROM `dt_wallet`', [], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(39): App\Models\Common_model->countRecords('dt_wallet', [], 'a.id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

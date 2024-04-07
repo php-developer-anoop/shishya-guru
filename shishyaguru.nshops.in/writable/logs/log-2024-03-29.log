@@ -1,0 +1,1185 @@
+CRITICAL - 2024-03-29 10:19:56 --> ErrorException: Undefined array key "image_jpg"
+in APPPATH/Views/frontend/become-tutor.php on line 431.
+ 1 APPPATH/Views/frontend/become-tutor.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_jpg"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/become-tutor.php', 431)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/become-tutor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/become-tutor', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/become-tutor', [...])
+ 6 APPPATH/Controllers/Common.php(138): frontView('become-tutor', [...])
+ 7 APPPATH/Controllers/Common.php(24): App\Controllers\Common->LoadCmsPage([...], 'tutor-register')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 10:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 10:20:09 --> ErrorException: Undefined array key "image_jpg"
+in APPPATH/Views/frontend/become-tutor.php on line 431.
+ 1 APPPATH/Views/frontend/become-tutor.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_jpg"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/become-tutor.php', 431)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/become-tutor.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/become-tutor', [], true)
+ 5 APPPATH/Helpers/My_helper.php(46): view('frontend/become-tutor', [...])
+ 6 APPPATH/Controllers/Common.php(138): frontView('become-tutor', [...])
+ 7 APPPATH/Controllers/Common.php(24): App\Controllers\Common->LoadCmsPage([...], 'tutor-register')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 10:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 10:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 10:34:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-29 10:34:38 --> 
+hello: 220 cloud.md4.in ESMTP MigoMTA/FB8UCG
+
+The following SMTP error was encountered: 220 cloud.md4.in ESMTP MigoMTA/FB8UCG
+
+ERROR - 2024-03-29 11:28:06 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `a`.`id`...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Tutor.php(28): App\Models\Common_model->getAllData('dt_city_list as...', 'a.id,a.city_nam...', Array, NULL, NULL, NULL, 0, NULL, Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 11:28:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Tutor.php(28): App\Models\Common_model->getAllData('dt_city_list as a', 'a.id,a.city_name,b.state_name', [...], null, null, null, 0, null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 11:28:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Tutor.php(28): App\Models\Common_model->getAllData('dt_city_list as a', 'a.id,a.city_name,b.state_name', [...], null, null, null, 0, null, [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 11:28:06 --> [Caused by] mysqli_sql_exception: Column 'status' in where clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`, `a`.`city_name`, `b`.`state_name`
+FROM `dt_city_list` as `a`
+INNER JOIN `dt_state_list` as `b` ON `a`.`state_id` = `b`.`id`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Tutor.php(28): App\Models\Common_model->getAllData('dt_city_list as a', 'a.id,a.city_name,b.state_name', [...], null, null, null, 0, null, [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Tutor->edit_tutor()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tutor))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 12:33:38 --> mysqli_sql_exception: Unknown column 'rating' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT AVG(rati...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT AVG(rati...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT AVG(rati...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT AVG(rati...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Ajax.php(30): App\Models\Common_model->getSingle('tutor_list', 'AVG(rating) as ...', Array)
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Ajax->index()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 12:33:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rating' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = :tutor_id:
+AND `status` = :status:', [...], false)
+ 2 APPPATH/Models/Common_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Ajax.php(30): App\Models\Common_model->getSingle('tutor_list', 'AVG(rating) as avg_rating, COUNT(id) as total', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Ajax->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 12:33:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rating' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = \'18\'
+AND `status` = \'Active\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = \'18\'
+AND `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = :tutor_id:
+AND `status` = :status:', [...], false)
+ 4 APPPATH/Models/Common_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Ajax.php(30): App\Models\Common_model->getSingle('tutor_list', 'AVG(rating) as avg_rating, COUNT(id) as total', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Ajax->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 12:33:38 --> [Caused by] mysqli_sql_exception: Unknown column 'rating' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = \'18\'
+AND `status` = \'Active\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = \'18\'
+AND `status` = \'Active\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = \'18\'
+AND `status` = \'Active\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT AVG(rating) as avg_rating, COUNT(id) as total
+FROM `dt_tutor_list`
+WHERE `tutor_id` = :tutor_id:
+AND `status` = :status:', [...], false)
+ 5 APPPATH/Models/Common_model.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Ajax.php(30): App\Models\Common_model->getSingle('tutor_list', 'AVG(rating) as avg_rating, COUNT(id) as total', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Ajax->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 12:36:53 --> ErrorException: Undefined property: App\Controllers\Admin\Ajax::$table
+in APPPATH/Controllers/Admin/Ajax.php on line 25.
+ 1 APPPATH/Controllers/Admin/Ajax.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Ajax::$table', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Ajax.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Ajax->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:12:21 --> ErrorException: Undefined variable $from_date
+in APPPATH/Views/admin/wallet.php on line 26.
+ 1 APPPATH/Views/admin/wallet.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $from_date', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/wallet.php', 26)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/wallet.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('admin/wallet', [], true)
+ 5 APPPATH/Helpers/My_helper.php(24): view('admin/wallet', [...])
+ 6 APPPATH/Controllers/Admin/Wallet.php(17): adminView('wallet', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 13:47:23 --> mysqli_sql_exception: Unknown column 'add_date' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 13:47:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:47:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:47:23 --> [Caused by] mysqli_sql_exception: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 13:47:36 --> mysqli_sql_exception: Unknown column 'add_date' in 'where clause' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 13:47:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:47:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 13:47:36 --> [Caused by] mysqli_sql_exception: Unknown column 'add_date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= \'2024-03-29\'
+AND DATE(add_date) <= \'2024-03-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE DATE(add_date) >= :DATE(add_date):
+AND DATE(add_date) <= :DATE(add_date).1:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(44): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 15:10:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:10:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:10:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:10:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 15:10:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:10:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:10:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:10:52 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:11:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:11:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:11:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:11:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(46): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:13:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(50): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:13:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(50): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:13:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(50): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:13:13 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 = :0:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(50): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:14:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:14:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:14:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:14:23 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:14:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:14:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:14:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:14:53 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:15:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4 in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', Array, 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:15:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 2 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:15:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 4 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:15:01 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':1:' at line 4
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dt_wallet`
+WHERE 0 IS NULL
+AND 1 = :1:', [...], false)
+ 5 APPPATH/Models/Common_model.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Wallet.php(45): App\Models\Common_model->countRecords('dt_wallet', [...], 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Wallet->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Wallet))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:19:51 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Helpers/My_helper.php on line 92.
+ 1 APPPATH/Helpers/My_helper.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php', 92)
+ 2 APPPATH/Helpers/My_helper.php(428): tutorProfile()
+ 3 APPPATH/Views/frontend/detail-page.php(499): testimonial_count()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/detail-page', [], true)
+ 7 APPPATH/Helpers/My_helper.php(46): view('frontend/detail-page', [...])
+ 8 APPPATH/Controllers/Common.php(349): frontView('detail-page', [...])
+ 9 APPPATH/Controllers/Common.php(28): App\Controllers\Common->LoadTutorDetails([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-29 15:20:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Helpers/My_helper.php on line 92.
+ 1 APPPATH/Helpers/My_helper.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php', 92)
+ 2 APPPATH/Helpers/My_helper.php(428): tutorProfile()
+ 3 APPPATH/Views/frontend/detail-page.php(499): testimonial_count()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/frontend/detail-page.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('frontend/detail-page', [], true)
+ 7 APPPATH/Helpers/My_helper.php(46): view('frontend/detail-page', [...])
+ 8 APPPATH/Controllers/Common.php(349): frontView('detail-page', [...])
+ 9 APPPATH/Controllers/Common.php(28): App\Controllers\Common->LoadTutorDetails([...])
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Common))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-29 15:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-29 15:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-29 15:33:55 --> mysqli_sql_exception: Unknown column 'DESC' in 'group statement' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(215): getData('dt_testimonial_...', '*', Array, 10, 0, 'id ', 'DESC')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:33:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DESC' in 'group statement'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 2 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'DESC')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:33:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DESC' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 4 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'DESC')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:33:55 --> [Caused by] mysqli_sql_exception: Unknown column 'DESC' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `DESC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 5 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'DESC')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 15:34:06 --> mysqli_sql_exception: Unknown column 'ASC' in 'group statement' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Ajax.php(215): getData('dt_testimonial_...', '*', Array, 10, 0, 'id ', 'ASC')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 15:34:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ASC' in 'group statement'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 2 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'ASC')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:34:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ASC' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 4 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'ASC')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:34:06 --> [Caused by] mysqli_sql_exception: Unknown column 'ASC' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = \'Active\'
+AND `tutor_id` = \'18\'
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dt_testimonial_list`
+WHERE `status` = :status:
+AND `tutor_id` = :tutor_id:
+GROUP BY `ASC`
+ORDER BY `id`
+ LIMIT 10', [...], false)
+ 5 APPPATH/Helpers/My_helper.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Ajax.php(215): getData('dt_testimonial_list', '*', [...], 10, 0, 'id ', 'ASC')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Ajax->getReviews()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 16:45:02 --> ErrorException: Undefined variable $schedule_name
+in APPPATH/Views/admin/add-schedule.php on line 34.
+ 1 APPPATH/Views/admin/add-schedule.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $schedule_name', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/add-schedule.php', 34)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/nshops1/public_html/shishyaguru.nshops.in/app/Views/admin/add-schedule.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('admin/add-schedule', [], true)
+ 5 APPPATH/Helpers/My_helper.php(24): view('admin/add-schedule', [...])
+ 6 APPPATH/Controllers/Admin/Schedule.php(28): adminView('add-schedule', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Schedule->add_schedule()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 16:46:26 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Admin/Schedule.php on line 36.
+ 1 APPPATH/Controllers/Admin/Schedule.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Schedule.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Schedule->save_schedule()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 17:29:14 --> ParseError: syntax error, unexpected token "\"
+in APPPATH/Views/tutor/active-tuition.php on line 153.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/active-tuition', [], true)
+ 3 APPPATH/Helpers/My_helper.php(70): view('tutor/active-tuition', [...])
+ 4 APPPATH/Controllers/Tutor/Leads.php(207): tutorView('active-tuition', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Leads->active_tuitions()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Leads))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 17:29:18 --> ParseError: syntax error, unexpected token "\"
+in APPPATH/Views/tutor/active-tuition.php on line 153.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tutor/active-tuition', [], true)
+ 3 APPPATH/Helpers/My_helper.php(70): view('tutor/active-tuition', [...])
+ 4 APPPATH/Controllers/Tutor/Leads.php(207): tutorView('active-tuition', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Tutor\Leads->active_tuitions()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tutor\Leads))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 18:49:01 --> mysqli_sql_exception: Unknown column 'update_date' in 'field list' in /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *, DATE_...', 0)
+#1 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, DATE_...')
+#2 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, DATE_...')
+#3 /home/nshops1/public_html/shishyaguru.nshops.in/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_...', Array, false)
+#4 /home/nshops1/public_html/shishyaguru.nshops.in/app/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nshops1/public_html/shishyaguru.nshops.in/app/Controllers/Admin/Schedule_list.php(46): App\Models\Common_model->getAllData('dt_schedule_lis...', '*,DATE_FORMAT(a...', Array, 10, 0, 'DESC', 'id')
+#6 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(941): App\Controllers\Admin\Schedule_list->getRecords()
+#7 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule_list))
+#8 /home/nshops1/public_html/shishyaguru.nshops.in/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nshops1/public_html/shishyaguru.nshops.in/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-29 18:49:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'update_date' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Schedule_list.php(46): App\Models\Common_model->getAllData('dt_schedule_list', '*,DATE_FORMAT(add_date , "%d-%m-%Y %r") AS add_date,DATE_FORMAT(update_date , "%d-%m-%Y %r") AS update_date', [], 10, 0, 'DESC', 'id')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Schedule_list->getRecords()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule_list))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 18:49:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'update_date' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 4 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Schedule_list.php(46): App\Models\Common_model->getAllData('dt_schedule_list', '*,DATE_FORMAT(add_date , "%d-%m-%Y %r") AS add_date,DATE_FORMAT(update_date , "%d-%m-%Y %r") AS update_date', [], 10, 0, 'DESC', 'id')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Schedule_list->getRecords()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule_list))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 18:49:02 --> [Caused by] mysqli_sql_exception: Unknown column 'update_date' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_FORMAT(add_date, "%d-%m-%Y %r") AS add_date, DATE_FORMAT(update_date, "%d-%m-%Y %r") AS update_date
+FROM `dt_schedule_list`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 5 APPPATH/Models/Common_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Schedule_list.php(46): App\Models\Common_model->getAllData('dt_schedule_list', '*,DATE_FORMAT(add_date , "%d-%m-%Y %r") AS add_date,DATE_FORMAT(update_date , "%d-%m-%Y %r") AS update_date', [], 10, 0, 'DESC', 'id')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Schedule_list->getRecords()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Schedule_list))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
